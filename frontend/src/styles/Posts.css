@@ -1,0 +1,33 @@
+.Posts {
+  width: 100%;
+  height: auto;
+  padding: 20px 0 20px 0;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Post > div {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Post > a {
+  text-decoration: none;
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Post > div > img {
+  max-width: 250px;
+}
+
+.Post > a > img {
+  max-width: 250px;
+}

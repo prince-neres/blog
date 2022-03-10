@@ -1,0 +1,26 @@
+.NavBar {
+  background-color: rgb(170, 170, 170);
+  height: 5vh;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: sticky;
+  top: o;
+}
+
+.NavBar > .Sections > a {
+  padding-right: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.NavBar > .Sections > button {
+  padding: 6px;
+  cursor: pointer;
+}
+
+.NavBar > .Login > a {
+  padding-right: 12px;
+  float: right;
+}

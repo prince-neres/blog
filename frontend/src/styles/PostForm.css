@@ -1,0 +1,31 @@
+.PostForm > Form {
+  padding: 20px 0 20px 0; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.PostForm > Form > img {
+  max-width: 300px;
+}
+
+.PostForm > Form > input {
+  width: 300px;
+  padding: 5px;
+  margin: 10px auto 10px auto;
+  cursor: pointer;
+}
+
+.PostForm button {
+  padding: 12px;
+  margin: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.PostForm .Submit {
+  padding: 12px;
+  width: 100px;
+}

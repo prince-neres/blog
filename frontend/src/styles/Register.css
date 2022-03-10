@@ -1,0 +1,22 @@
+.RegisterForm > Form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.RegisterForm > Form > input {
+  width: 300px;
+  padding: 5px;
+  margin: 10px auto 10px auto;
+}
+
+.RegisterForm > Form > button {
+  padding: 12px;
+  width: 100px;
+  margin: 10px auto 10px auto;
+}
+
+.RegisterForm > Form > hr {
+  margin: 20px 0 20px 0;
+}
