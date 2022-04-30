@@ -15,7 +15,7 @@ const LoginPage = () => {
     <div className='LoginForm'>
       <form onSubmit={handleSubmit}>
         <h1>Login </h1>
-        <hr />
+        <hr/>
         <label htmlFor='username'>Username</label>
         <input type='text' id='username' placeholder='Enter Username' />
         <label htmlFor='password'>Password</label>

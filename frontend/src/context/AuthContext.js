@@ -40,7 +40,7 @@ export const AuthProvider = ({ children }) => {
       localStorage.setItem('authTokens', JSON.stringify(data))
       history.push('/')
     } else {
-      alert('Something went wrong!')
+      alert('Algo de errado não está certo!')
     }
   }
   
@@ -59,7 +59,7 @@ export const AuthProvider = ({ children }) => {
     if (response.status === 201) {
       history.push('/login')
     } else {
-      alert('Something went wrong!')
+      alert('Algo de errado não está certo!')
     }
   }
 
