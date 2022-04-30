@@ -1,4 +1,4 @@
-# BLog
+# Blog
 Projeto feito com Django no backend e React.Js no frontend.
 
 ## Tecnologias usadas:
@@ -23,5 +23,5 @@ Projeto feito com Django no backend e React.Js no frontend.
 5. `python manage.py runserver`  
 
 ### Frontend
-1. `yarn` ou `npm i`  
-2. `yarn start` ou `npm run start`
+1. `npm i`  
+2. `npm start`
